@@ -2,6 +2,16 @@ body{
     background-color: #ffffff;
 }
 
+/*selektor znaczkika*/
 p{
     color: orange;
+}
+/*selektor id*/
+#paragraph{
+    color: blue;    
+}
+/*łączenie selektorów*/
+
+a, span, div{
+    color: green;
 }
