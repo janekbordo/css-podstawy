@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+}
+
+div#main {
+    position: relative;
+    background-color: chartreuse;
+    height: 900px;
+    width: 900px;
+    padding: 20px;
+}
+
+div#green {
+    background-color: green;
+    width: 50%;
+    height: 80%;
+}
+
+div#red {
+    
+    right: 10px;
+    top: 20px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+div#blue {
+    position:inherit;
+    top: 10px;
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+}
+
+#zafixowany{
+    position: fixed;
+    bottom:20px;
+    right:30px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
