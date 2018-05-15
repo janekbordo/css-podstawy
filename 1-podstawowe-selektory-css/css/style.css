@@ -22,3 +22,21 @@ ul a{
     color:blue;
     text-decoration: none;
 }
+
+/*selektor elementów potomnych*/
+
+div a{
+    color: goldenrod;
+}
+
+/*Selektor bliskiego rodzeństwa*/
+
+h2 + h3{
+    color: greenyellow;
+}
+
+/*selektor rodzeństwa*/
+
+h4 ~ p{
+    color:firebrick;
+}
