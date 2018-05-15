@@ -13,5 +13,12 @@ p{
 /*łączenie selektorów*/
 
 a, span, div{
-    color: green;
+    color: green;    
+}
+
+/*selektor bezpośredniego elementu potomnego*/
+
+ul a{
+    color:blue;
+    text-decoration: none;
 }
